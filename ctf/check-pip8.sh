@@ -1,0 +1,1 @@
+find -name '*.py' -not -path "./ctf-env/*" -exec pycodestyle --ignore=E501 {} \;
